@@ -5,7 +5,6 @@ token = encodeURIComponent($("[name='session_token']").value);
 id_lista = encodeURIComponent($(".playlist-settings-editor").getAttribute("data-full-list-id"));
 lista = document.getElementsByClassName("pl-video");
 n = lista.length;
-ids = [];
 page_cl = encodeURIComponent(yt.getConfig("PAGE_CL"));
 page_label = encodeURIComponent(yt.getConfig("PAGE_BUILD_LABEL"));
 variants_checksum = encodeURIComponent(yt.getConfig("VARIANTS_CHECKSUM"));
